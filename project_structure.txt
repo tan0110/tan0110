@@ -1,0 +1,29 @@
+video_automation_system/
+├── app/
+│   ├── __init__.py
+│   ├── config.py
+│   ├── database.py
+│   ├── models.py
+│   └── modules/
+│       ├── __init__.py
+│       ├── trend_analyzer.py
+│       ├── content_generator.py
+│       ├── video_producer.py
+│       ├── seo_optimizer.py
+│       ├── social_publisher.py
+│       └── orchestrator.py
+├── data/
+│   ├── videos/
+│   ├── audio/
+│   └── images/
+├── logs/
+├── scripts/
+│   ├── setup_database.py
+│   └── daily_runner.py
+├── docker/
+│   ├── Dockerfile
+│   └── docker-compose.yml
+├── requirements.txt
+├── .env.example
+└── README.md
+
